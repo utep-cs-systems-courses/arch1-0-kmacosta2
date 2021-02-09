@@ -18,7 +18,7 @@ int main()
     switch (c) {
     case 'a':
       puts("You selected arrow:");
-      print_arrow();
+      print_arrow(5, 7);
       break;
     case 't':
       puts("You selected triangle:");
@@ -31,7 +31,8 @@ int main()
     case 'c':
       puts("You selected chars:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_11x16(c);
+	print_char_8x12(c);
+	//print_char_11x16(c);
       break;
     case 'q':
       puts("Bye!");
