@@ -6,7 +6,7 @@ int main()
   puts("Welcome!");
 
   while (1) { // Infinite while loop
-
+    //added an arrow option in menu
     fputs("Select which shape you want to print (Arrow = a, Triangle = t, Square = s, Chars = c) or 'q' to quit\n> ", stdout);
     fflush(stdout);		/* stdout only flushes automatically on \n */
     int c;
